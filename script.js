@@ -68,5 +68,11 @@ container.addEventListener('click', e => {
   }
 });
 
+//Bottom
+function sayHello(){
+  var response = prompt("What is your name?");
+  alert("Hello "+response+", have a nice day!");
+}
+
 // Initial count and total set
 updateSelectedCount();
