@@ -71,7 +71,7 @@ container.addEventListener('click', e => {
 //Bottom
 function sayHello(){
   var response = prompt("What is your name?");
-  alert("Hello "+response+", You have selected "+count.innerText+" seats for a price of "+total.innerText+", enjoy your movie!");
+  alert("Hello "+response+", You have selected "+count.innerText+" seats for a price of $"+total.innerText+", enjoy your movie!");
 }
 
 // Initial count and total set
